@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+  
+    /* height: 10vh; */
+    width: 100%;
+    min-height: 100vh;
+    background:yellow;
+    
+}
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}
+/* @keyframes {} */
+
+.nav ul li{
+    list-style: none;
+    float: left;
+    padding: 50px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.img-box{
+
+    width: 500px;
+    height: 450px;
+  
+    
+}
+
+
+
+.img-box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 100px;
+    /* translate: 50px 50px 50px; */
+}
+
+
+.img-box1 img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 100px;
+}
+
